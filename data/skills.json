@@ -1,0 +1,116 @@
+{
+  "Programming": [
+    "Python",
+    "C",
+    "C++",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "SQL",
+    "R",
+    "Go",
+    "Rust"
+  ],
+
+  "Web Development": [
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "Tailwind CSS",
+    "React",
+    "Next.js",
+    "Angular",
+    "Vue",
+    "Node.js",
+    "Express.js",
+    "Flask",
+    "Django",
+    "FastAPI"
+  ],
+
+  "Machine Learning": [
+    "NumPy",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "Keras",
+    "PyTorch",
+    "OpenCV",
+    "XGBoost",
+    "LightGBM",
+    "Matplotlib",
+    "Seaborn"
+  ],
+
+  "Data Science": [
+    "Power BI",
+    "Tableau",
+    "Excel",
+    "Statistics",
+    "Data Analysis",
+    "Data Visualization"
+  ],
+
+  "Database": [
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "MongoDB",
+    "Oracle",
+    "Redis"
+  ],
+
+  "Cloud & DevOps": [
+    "AWS",
+    "Azure",
+    "Google Cloud",
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "Linux",
+    "CI/CD"
+  ],
+
+  "AI & NLP": [
+    "LLM",
+    "LangChain",
+    "OpenAI",
+    "Gemini",
+    "Hugging Face",
+    "Transformers",
+    "spaCy",
+    "NLTK",
+    "FAISS",
+    "ChromaDB",
+    "RAG"
+  ],
+
+  "Cybersecurity": [
+    "Wireshark",
+    "Nmap",
+    "Burp Suite",
+    "Metasploit",
+    "Kali Linux"
+  ],
+
+  "Tools": [
+    "VS Code",
+    "Jupyter Notebook",
+    "Google Colab",
+    "PyCharm",
+    "Postman",
+    "Figma",
+    "Canva"
+  ],
+
+  "Soft Skills": [
+    "Leadership",
+    "Problem Solving",
+    "Communication",
+    "Teamwork",
+    "Critical Thinking",
+    "Time Management"
+  ]
+}
