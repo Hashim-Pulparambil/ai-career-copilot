@@ -1,0 +1,36 @@
+import pdfplumber
+from docx import Document
+
+
+def extract_text_from_pdf(file):
+    text = ""
+
+    with pdfplumber.open(file) as pdf:
+        for page in pdf.pages:
+            page_text = page.extract_text()
+            if page_text:
+                text += page_text + "\n"
+
+    return text
+
+
+def extract_text_from_docx(file):
+    document = Document(file)
+
+    text = "\n".join(
+        paragraph.text
+        for paragraph in document.paragraphs
+    )
+
+    return text
+
+
+def extract_resume_text(uploaded_file):
+
+    if uploaded_file.name.endswith(".pdf"):
+        return extract_text_from_pdf(uploaded_file)
+
+    elif uploaded_file.name.endswith(".docx"):
+        return extract_text_from_docx(uploaded_file)
+
+    return ""
